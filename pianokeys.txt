@@ -1,0 +1,28 @@
+; these keys do things
+%define EXITCHAR 'x'
+
+; these keys are piano keys
+%define BLACKD 'q'
+%define LOWE 'a'
+%define LOWF 's'
+%define BLACKF 'e'
+%define LOWG 'd'
+%define BLACKG 'r'
+%define AKEY 'f'
+%define BLACKA 't'
+%define BKEY 'g'
+%define MIDCKEY 'h'
+%define BLACKC 'u'
+%define DKEY 'j'
+%define BLACKMIDD 'i'
+%define EKEY 'k'
+%define FKEY 'l'
+%define BLACKMIDF 'p'
+%define GKEY ';'
+%define BLACKMIDF '['
+
+
+push duration
+push frequency
+call beep
+add esp, 8
